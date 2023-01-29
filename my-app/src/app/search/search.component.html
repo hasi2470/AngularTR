@@ -1,0 +1,44 @@
+<!-- <p>search works!</p> -->
+
+
+<!--Event Binding-->
+<!-- <div class="search-div">
+    <span><b>Search: </b></span>
+    <input type="text" (input) ="changeSearchValue($event)">
+    <span>You have searchedc for "{{searchValue}}"</span>
+</div> -->
+
+
+<!--TWO WAY Binding using : ngModel-->
+<!-- <div class="search-div">
+    <span><b>Search: </b></span>
+
+    <input type="text" [(ngModel)] = "searchValue">
+    
+    <span *ngIf="searchValue != ''"> You have searched for "{{searchValue}}"  </span>
+</div> -->
+
+
+
+
+
+
+
+<!-- trailssssssssssssssssssssssssssssssss =-->
+
+
+  <div class="search-div">
+    <span><b>Search: </b></span>
+    <input type="text" (input) ="changeSearchValue($event)">
+    <span *ngIf=" searchValue != '' "> <div class="bb"> You have searched for <i> "{{searchValue}}" </i> </div> </span>
+</div>  
+
+
+ <!--<div class="search-div">
+    <span><b>Search: </b></span>
+
+    <input type="text" [(ngModel)] = "searchValue">
+    
+    <span *ngIf=" searchValue != '' "> <div class="bb"> You have searched for <i> "{{searchValue}}" </i> </div> </span>
+</div>-->
+

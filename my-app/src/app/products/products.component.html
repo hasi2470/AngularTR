@@ -1,0 +1,57 @@
+<!-- <p>products works!</p> -->
+
+<!--Display some DUMMY DATA-->
+ <!-- <div *ngFor=" let p of products; let i=index;">
+    <div class="product-container">
+
+        <div class="image-container"> <img src="" alt="" style="max-height: 50px; max-width: 50px;"> </div> 
+
+        <div>
+            <div class="name-container"><h6> Product Name </h6></div>
+            <div class="detailContainer">
+                <span class="details">Available</span>
+                <span class="details">Price: 41234</span>
+                <span class="details">Color: <b>Black</b> </span>
+            </div>
+        </div>
+        
+        <div class="options">
+        <button class="btn btn-success">Show Details</button>
+        <button class="btn btn-warning">Buy Now</button>
+        </div>
+
+    </div>
+</div> -->
+
+
+
+
+<div class="aw" *ngFor=" let p of products; let i=index;">
+    <!--{{p}}-->
+    <div class="product-container"  [ngStyle]="{background: p.available != 'Available'? 'pink' : 'lightyellow'}">
+
+        <div class="image-container"> <img [src]="p.image" alt="" style="max-height: 50px; max-width: 50px;"> </div> 
+
+        <div>
+               <div class="name-container"><h6> {{p.name }}</h6></div>
+               <div class="detailContainer">
+                   <!--span-->
+                      <div class="details" [ngStyle]="{color: p.available != 'Available'? 'red' : 'green'}"> <b> {{ p.available}} </b> </div>
+                      <div class="details"> Price: <b> {{p.price}} </b></div>
+                      <div class="details"> Color: <b> {{p.color}} </b> </div>
+               </div>
+        </div>
+
+        <div class="options">
+           <button class="btn btn-success">Show Details</button>
+           <button class="btn btn-warning" *ngIf="p.available == 'Available'; else notifyMe">Buy Now</button>
+           <ng-template #notifyMe>
+              <button class="btn btn-danger">Notify Me</button>
+           </ng-template>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- Trails  class="aw"-->

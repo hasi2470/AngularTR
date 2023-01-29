@@ -1,0 +1,97 @@
+/* .product-container{
+    display: flex;
+    margin: 15px 0px;
+    padding: 5px 5px;
+    border-radius: 5px;
+  } */
+  
+  /* .image-container{
+    background-color: #fff;
+    height: 70px;
+    width: 70px;
+    padding: 10px 0px;
+    text-align: center;
+
+  } */
+  
+  /* .detailContainer{
+    display: flex;
+    margin: 0px 20px;
+  } */
+  
+  /* .name-container{
+    margin: 0px 20px;
+  } */
+  
+  /* .details{
+    width: 140px;
+  } */
+  
+  /* .options{
+    width: 220px;
+    margin-left: 80px;
+  } */
+  
+  /* .btn{
+    border-radius: none;
+    margin: 0px 5px;
+    padding: 2px 10px;
+    font-size: 12px;
+  }
+   */
+/* Trailsssssssssssssssssssssssssssssssssss */
+
+.product-container{
+  display: flex;
+  margin: 15px 0px;
+  padding: 5px 5px;
+  border-radius: 5px;
+  border: 1px solid #501524;
+}
+
+  .image-container{
+    background-color: #fff;
+    height: 70px;
+    width: 70px;
+    padding: 10px 0px;
+    text-align: center;
+    border: 1px solid #2b0202;
+  }
+
+  .aw{
+    background-color: #f2dbf6;
+    border: 1px solid #e6a0f0;
+  }
+  .detailContainer{
+    display: flex;
+    margin: 0px 20px;
+    border: 1px solid #8a8a88;
+    background-color: #d3f1f7;
+  }
+
+  .name-container{
+    margin: 10px 20px;
+    border: 1px solid #2c2c24;
+    background-color: #d2efe2;
+  
+    border-radius: 1px;
+  }
+  .details{
+    width: 140px;
+    background-color: #dde2e1;
+    border: 1px solid #2c2c24;
+    border-radius: 1px;
+  }
+  .options{
+    width: 190px;
+    margin-left: 80px;
+    border: 1px solid #d3d3c5;
+    border-radius: 1px;
+  }
+  .btn{
+    border-radius: 9px;
+    margin: 1px 4px;
+    padding: 4px 11px;
+    font-size: 12px;
+  }
+  

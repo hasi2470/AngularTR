@@ -1,0 +1,33 @@
+<!-- <h4>Header works!</h4> -->
+
+
+<div class="header">
+    
+    <div class="site-image">
+        
+        <!-- <img src="assets/ecommerce.jpeg" alt="ecommerce_image" style="height: 240px; width:320px;">  -->
+
+     <!---Property binding-->
+        <img [src]="imgSource" alt="ecommerce_image" style="height: 241px; width:321px;">  
+       
+        
+    </div>
+
+    <div class="site-slogan">
+
+        <!-- <h2>One Stop Shop For Everthing </h2> -->
+
+        <!--Make the data display dynamic-->
+        <!--String Interpolation-->
+        <h2> {{slogan}}</h2>                      
+ 
+      
+        <!--Execute/Call functions-->
+        <!-- <h2> {{ getSlogan()}}</h2> -->
+
+        <!--Expressions output=6-->
+        <!-- <h2> {{1+2+3 }}</h2>-->
+
+    </div>
+
+</div>

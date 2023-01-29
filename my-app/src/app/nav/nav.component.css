@@ -1,0 +1,44 @@
+/* .navbar{
+    display: flex;
+    background-color: burlywood;
+} */
+
+/* .site-name{
+    padding: 5px 30px;
+    color: red;
+} */
+
+/* .site-menu{
+    padding: 10px 30px;
+    margin-left: 100px;
+} */
+
+/* a{
+    text-decoration: none;
+    color: #212F3D;
+    margin: 0px 10px;
+} */
+
+
+
+/* trailssss */
+.navbar
+{
+  background-color: rgb(244, 188, 197);
+  border: 1px solid #44133c;
+}
+.site-name
+{
+    padding: 5px 20px;
+    color: purple;
+}
+.site-menu{
+    padding: 8px ;
+   
+}
+a{
+   text-decoration-color: purple;
+    color: rgb(90, 49, 90);
+    margin: 0px 15px;
+    font-style: italic;
+}
